@@ -29,14 +29,16 @@ MyCalendar is a customizable calendar web component built with LitElement. It pr
 3. Customize the component's appearance and behavior by setting public properties or handling events.
 
 ### Example:
-
+1. Html sindle date mode (default variant)
 ```html single date mode (default variant)
 <my-calendar></my-calendar>
 <my-calendar selectionMode="single"></my-calendar>
 ```
+2. Html date range mode
 ```html date range mode
 <my-calendar selectionMode="range"></my-calendar>
 ```
+3. Integration example with angular and subscribe method with single/range modes
 ```angular example to use events
 
   @ViewChild("myCalendar")
