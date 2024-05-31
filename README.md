@@ -33,10 +33,10 @@ MyCalendar is a customizable calendar web component built with LitElement. It pr
 ```html single date mode (default variant)
 <my-calendar></my-calendar>
 <my-calendar selectionMode="single"></my-calendar>
-
+```
 ```html date range mode
 <my-calendar selectionMode="range"></my-calendar>
-
+```
 ```angular example to use events
 
   @ViewChild("myCalendar")
